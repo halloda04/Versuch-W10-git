@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Elektromagnetische Wellen}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Interferenz}{3}{}%
+\contentsline {section}{\numberline {3}Versuchsbeschreibung}{3}{}%
+\contentsline {section}{\numberline {4}Auswertung}{3}{}%
+\contentsline {section}{\numberline {5}zusammenfassung}{3}{}%
+\contentsline {section}{\numberline {6}Anhang}{3}{}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{3}{}%
