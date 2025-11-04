@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  25 OCT 2025 16:04
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  4 NOV 2025 12:05
  restricted system commands enabled.
  file:line:error style messages enabled.
-**"c:/Users/tomgl/Downloads/Moritz AP vorlage/eigene AP vorlage/Titelblatt.tex"
-("c:/Users/tomgl/Downloads/Moritz AP vorlage/eigene AP vorlage/Titelblatt.tex"
+**"c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W10 git/Versuch-W10/Titelblatt.tex"
+("c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W10 git/Versuch-W10/Titelblatt.tex"
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -521,7 +521,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 2:637,3:220,4:84,5:264,6:42,7:3360,8:17,9:250,10:6,11:368
  35755 multiletter control sequences out of 65536+600000
  35 fonts using 2613311 bytes
- 73i,11n,73p,341b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,11n,73p,358b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on Titelblatt.pdf (3 pages, 257263 bytes).
 

@@ -1,6 +1,6 @@
-PWD c:/Users/tomgl/Downloads/Moritz AP vorlage/eigene AP vorlage
+PWD c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W10 git/Versuch-W10
 INPUT c:/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT c:/Users/tomgl/Downloads/Moritz AP vorlage/eigene AP vorlage/Titelblatt.tex
+INPUT c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W10 git/Versuch-W10/Titelblatt.tex
 OUTPUT Titelblatt.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/ltluatex.lua
