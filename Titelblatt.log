@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  6 NOV 2025 17:07
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  6 NOV 2025 19:30
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W10 git/Versuch-W10/Titelblatt.tex"
@@ -655,16 +655,16 @@ L3 programming layer <2025-08-13>
 )
 
 Here is how much of LuaTeX's memory you used:
- 12743 strings out of 470117
+ 12746 strings out of 470117
  100000,953878 words of node,token memory allocated
  588 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 15 attribute, 72 glue_spec, 9 attribute_list, 1 write nodes
-   avail lists: 2:268,3:82,4:24,5:288,6:28,7:3584,8:19,9:234,10:10,11:426
- 40906 multiletter control sequences out of 65536+600000
+   avail lists: 2:376,3:118,4:48,5:288,6:36,7:3700,8:19,9:234,10:10,11:426
+ 40909 multiletter control sequences out of 65536+600000
  35 fonts using 2613311 bytes
  73i,11n,76p,342b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Titelblatt.pdf (9 pages, 267204 bytes).
+Output written on Titelblatt.pdf (9 pages, 269407 bytes).
 
 PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
