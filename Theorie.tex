@@ -1,25 +1,34 @@
 \section{Theoretische Grundlagen}
 
-%\begin{wrapfigure}{r}{0.4\textwidth} % r=rechts, l=links, 0.4=Breite 
-%        \centering
-%        \includegraphics[width=0.9\linewidth]{Bilder/Titelbild.png}
-%        \caption{Veranschaulichung der LSA}
-%       \label{fig:SpASkizze}
-%\end{wrapfigure}
+Bei dem Transport von Wärmeenergie gibt es nur 
+drei unterschiedliche Phänomene. Das erste ist die 
+Wärmestrahlung, hierbei wird Wärmeenergie über 
+elektromagnetische Wellen, meist im Infrarotbereich, 
+transportiert. Dies ist aber sehr inneffizient im Vergleich 
+zu den anderen Arten des Wärmetransports. Aufgrund dessen 
+ist es ziemlich komplex vernünftige Kühlsysteme innerhalb 
+eines Vakuums zu entwickeln. Die zweite Art des 
+Wärmetransports nennt sich Konvektion, diese beschreibt die 
+Bewegung von Gasen und Flüssigkeiten, die sich aufgrund von 
+Temperaturschwankungen innerhalb eines Raumes bewegen. Die 
+dritte und letzte Art des Wärmetransports ist die 
+Wärmeleitung. Die Wärmeleitung funktioniert Aufgrund von 
+Stößen der im Material vorhandenen Atomkerne und Elektronen 
+dieser Energietransport funktioniert sehr Effizient 
+innerhalb von Metallen, da in diesen die Elektronen sehr 
+beweglich sind und somit auch viele Stöße passieren können, 
+oder Materialien bei den die Atomkerne sehr nah bei einander 
+liegen.\\
+In diesem Versuhc wird die Wärmeleitung näher Betrachtet, sie wird mathematisch durch folgende Gleichung ausgedrückt:\\
 
-  \subsection{Elektromagnetische Wellen}
-Ausgehend von der Wellennatur des lässt sich eine Lichtwelle an Punkt P durch ihre elektrische Feldstärke beschreiben. Diese Beträgt:\\
+\begin{equation}
+\frac{\partial T}{\partial t}=\frac{\lambda}{c\rho}\nabla^2 T
+\end{equation}
+In dieser Gleichung ist T die Temperatur, $\delta$ die 
+Wärmleitfähigkeitskontante, c die Spezifische 
+Wärmekapazität des Materials und $\rho$ die Dichte des 
+untersuchten Materials. Im einfacheren ein-dimensionalen fall gibt es eine kleine abwandlung der Formel\\
+\begin{equation}
+\frac{\partial T}{\partial t}=\frac{\lambda}{c\rho}\frac{\partial^2 T}{\partial x^2}
+\end{equation}
 
-\begin{center}
-    {$\vec{E}=\vec{A}cos(\omega*t-\vec{k}\vec{x}-\delta)$}
-\end{center}
-Das Elektrische-Feld der Welle setzt sich zusammen aus dem A*cos wobei das A die amplitude und der cos die Welle beschreibt. Im Argument des cosinus ist zu finden:\\
-Zum einen das $\omega*t$, welches die auslekung der schwingung in Abhängigkeit mit der zeit beschreibt, dann $\vec{k}$ beschreibt den Wellenzahlvektor, $\vec{x}$ den Ort der Welle und $\delta$ die Phasenkonstante.
-
-\subsection{Interferenz}
-Damit Wellen Interferieren müssen einige Eigenschaften zutreffen:\\
-Die Wellen müssen Koheränt sein, 
-dass bedeuted sie zueinander eine zeitlich feste Phasenbeziehung haben. Damit zwei Wellen miteinander Interferieren dürfen sie auch nicht senkrecht zueinander stehen. 
-Wenn diese Bedingungen erfüllt werden dann können sich die Wellen gegenseitig beinflussen oder auch Interferieren. 
-Die stärkste Form der Interferenz tritt auf wenn die Wellen zueinander jeweils um ganzzahlige $pi$ verschoben sind. 
-Bei ungeraden $\pi$ kommt es zu destruktiver Interferenz, bei geraden $pi$ kommt es zu konstruktiver Interferenz

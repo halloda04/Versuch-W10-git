@@ -99,6 +99,19 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.lua
+INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
@@ -110,9 +123,9 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT ./Titelblatt.aux
 OUTPUT Titelblatt.aux
+INPUT c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.lua
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc
 INPUT C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
@@ -147,4 +160,5 @@ INPUT ./Literaturverzeichnis.tex
 INPUT ./Titelblatt.aux
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
