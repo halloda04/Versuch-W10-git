@@ -15,6 +15,8 @@
 *.snm
 *.vrb
 *.bcf
+*.run.xml
+
 # PDFs (optional: if you want to commit the output, remove this)
 *.pdf
 

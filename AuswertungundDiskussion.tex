@@ -22,3 +22,66 @@ $m_K = \pm 5g$ erzielt werden$\left(m_K = 185 \pm5g\right)$. Für den
 Fehler für $T_W$ und $T_K$ muss beachtet werden, dass der Zeitpunkt $t_0$ 
 per Hand in das Diagramm eingefügt wurde und somit nicht den ideal 
 Werten entspricht. Fehler der fitgeraden+ große formel!!
+
+\newpage
+\subsection{Aufgabe 2, Wärmeleistung}
+Trägt man die Temperatur $T_u$ gegen die Zeit $t$ auf so erhält man folgende Grafik:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/tempuntent.png}
+    \caption{Die Temperatur $T_u$ aufgetragen gegen die Zeit. Mit Grenz- und Ausgleichsgeraden. Die ersten 3 Messpunkte wurden in die Steigung der Geraden miteinbezogen da die Temperatur $T$ hier konstant ist}
+    \label{fig:tempunten}
+\end{figure}
+
+
+Für die Wärme $Q$, welche vom Dewar-Gefäß aufgenommen wird gilt:
+
+\begin{equation}
+Q = c_w \cdot (m_w + w)\cdot \Delta T
+\end{equation}
+
+Differenziert nach der Zeit, ergibt sich für die Wärmeleistung $P$:
+\begin{equation}
+P = c_w \cdot (m_w + w)\cdot \frac{\text{d}T}{\text{d}t} 
+\end{equation}
+
+Für den Fehler gilt:
+
+\begin{equation}
+\Delta P = \pm \left(
+\left|\frac{\partial P}{\partial m_w}\right| \,\Delta m_w
++ \left|\frac{\partial P}{\partial w}\right| \,\Delta w
++ \left|\frac{\partial P}{\partial \frac{dT}{dt}}\right| \,\Delta\!\frac{dT}{dt}
+\right)
+= \pm P \left(
+\frac{\Delta m_w + \Delta w}{m_w + w}
++ \frac{\Delta\!\frac{dT}{dt}}{\frac{dT}{dt}}
+\right)
+\end{equation}
+
+Dabei ist $\Delta\!\frac{dT}{dt}$ gegeben durch die differenz der Steigung der Grenzgeraden.
+
+\begin{equation}
+\Delta\!\frac{dT}{dt}
+= \pm \left| \frac{
+\left(\frac{dT}{dt}\right)_{\max}
+-
+\left(\frac{dT}{dt}\right)_{\min}
+}{2} \right|.
+\end{equation}
+
+Die Menge and destilliertem Wasser war $m_w = 409,5 \pm 0,1g $. Für $c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{kgK}}}$ verwendet. Somit ergibt sich mit den Werten für die Steigungen aus \ref{fig:tempunten}
+und dem in Teil 1 bestimmtem Wasserwert eine Wärmeleistung von:
+\begin{equation}
+P_{Cu} = FEHLer
+\end{equation}
+
+Für den Aluminuimstab sieht die Grafik wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/tempuntentalu.png}
+    \caption{Die Temperatur $T_u$ aufgetragen gegen die Zeit. Mit Grenz- und Ausgleichsgeraden. Die ersten 4 Messpunkte wurden in die Steigung der Geraden miteinbezogen da die Temperatur $T$ hier konstant ist}
+    \label{fig:tempuntenalu}
+\end{figure}
