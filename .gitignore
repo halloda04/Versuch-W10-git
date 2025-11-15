@@ -14,7 +14,7 @@
 *.nav
 *.snm
 *.vrb
-
+*.bcf
 # PDFs (optional: if you want to commit the output, remove this)
 *.pdf
 
