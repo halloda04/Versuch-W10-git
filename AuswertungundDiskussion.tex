@@ -111,12 +111,12 @@ Dabei ist $\Delta\!\frac{dT}{dt}$ gegeben durch die differenz der Steigung der G
 \end{equation}
 
 Die Menge an destilliertem Wasser war $m_w = 409,5 \pm 0,1g $. Für 
-$c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{kgK}}}$ verwendet. 
+$c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{gK}}}$ verwendet. 
 Somit ergibt sich mit den Werten für die Steigungen aus 
 \ref{fig:tempunten}
 und dem in Teil 1 bestimmtem Wasserwert eine Wärmeleistung von:
 \begin{equation}
-P_{Cu} = FEHLer
+P_{Cu} = 14,52 \pm 1,85 \text{W}
 \end{equation}
 
 Für den Aluminuimstab sieht die Grafik wie folgt aus:
@@ -127,3 +127,106 @@ Für den Aluminuimstab sieht die Grafik wie folgt aus:
     \caption{Die Temperatur $T_u$ aufgetragen gegen die Zeit. Mit Grenz- und Ausgleichsgeraden. Die ersten 4 Messpunkte wurden in die Steigung der Geraden miteinbezogen da die Temperatur $T$ hier konstant ist}
     \label{fig:tempuntenalu}
 \end{figure}
+
+Mit identischem Verfahren und identischem Wasserwert und einem Wassermasse von $m_w = 432,4 \pm 0,1$ erhält man für die Leistung des Aluminuimstabs:
+
+\begin{equation}
+P_{al} = 16,91 \pm 1,23  \text{W}
+\end{equation}
+
+
+\subsection{Aufgabe 3, Stationärer Zeitpunkt}
+
+Im Folgenden sind die Temperaturen des Kupferstabs oben sowie unten gegen die Zeit Aufgetragen. Zudem ist die
+Temperaturdifferenz $\Delta T$ aufgetragen.
+
+Der Stationärefall tritt etwa bei $T = 24min$ ein. Das Einen stationäre Temperaturdiffernez von:
+\begin{equation}
+\Delta T_{Cu} = 28.5 \pm 0,18 °C
+\end{equation}
+
+Hierzu wurde der Mitelwert aller Messpunkte sowie die Standartabweichung nach $T = 24$ min verwendet.
+Im Folgenden wurde dann die stationere Temperaturdifferenz für den Alustab mit gleicher Methodik bestimmt.
+Der Stationäre Fall tritt bei dieser Messreihe bei etwa $T = 28$ min ein.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/temp diff alu.png}
+    \caption{Die Temperaturen Am oberen sowie am unteren Stabende und deren Differenz aufgtragen gegen die Zeit.}
+    \label{fig:tempuntensdiffalu}
+\end{figure}
+
+Es ergab sich eine Temperaturdifferenz von:
+
+\begin{equation}
+\Delta T_{Al} = 63.18 \pm 0.23 °C
+\end{equation}
+
+\subsection{Teil 4, Wärmeleitungskonstanten}
+
+Um die Wärmeleitungskonstanten von Kupfer und Aluminium zu bestimmen, kann die unten stehende Gleichung benutzt werden. Zudem entspricht die Wärmeleistung $P$ der in Aufgabe 2 ermittelten übertragenen Leistung. Weiterhin bezeichnet $\Delta x$ den Abstand zwischen den beiden Temperaturfühlern, $\Delta T$ die stationäre Temperaturdifferenz aus Aufgabe 3 und $A$ die jeweilige Querschnittsfläche der beiden Metallstäbe.
+
+\begin{equation}
+\lambda = \frac{P \, \Delta x}{A \, \Delta T}
+\end{equation}
+
+
+Sowohl der Kupfer- als auch der Aluminiumstab besitzen denselben Durchmesser von  
+$d = 25 \pm 1\,\mathrm{mm}$. Somit ergibt sich für die Querschnittsfläche
+
+\begin{equation}
+A = \frac{\pi}{4} \, d^2
+\label{eq:A}
+\end{equation}
+
+Der Fehler
+
+\begin{equation}
+\Delta A = \pm \left| \frac{\partial A}{\partial d} \right| \Delta d
+= \pm \frac{\pi}{2} \, d \, \Delta d .
+\label{eq:dA}
+\end{equation}
+
+Der Abstand beträgt für beide Stäbe $\Delta x = l = 30.00 \pm 0.25\,\mathrm{cm}$.  
+Damit lässt sich die Wärmeleitungskonstante $\lambda$ bestimmen. Für den Fehler ergibt sich
+
+\begin{equation}
+\Delta\lambda 
+= \pm \left(
+\left| \frac{\partial \lambda}{\partial P} \right| \Delta P
++ \left| \frac{\partial \lambda}{\partial l} \right| \Delta l
++ \left| \frac{\partial \lambda}{\partial \Delta T_{\mathrm{stat}}} \right|
+\Delta(\Delta T_{\mathrm{stat}})
++ \left| \frac{\partial \lambda}{\partial A} \right| \Delta A
+\right).
+\label{eq:fehlervoll}
+\end{equation}
+
+Nach Differenzieren und Umformung erhält man schließlich
+
+\begin{equation}
+\Delta \lambda
+= \pm \lambda \left(
+\frac{\Delta P}{P}
++ \frac{\Delta l}{l}
++ 2 \frac{\Delta d}{d}
++ \frac{\Delta(\Delta T_{\mathrm{stat}})}{\Delta T_{\mathrm{stat}}}
+\right).
+\label{eq:fehlerfertig}
+\end{equation}
+
+Unter Verwendung der Gleichungen (13) und (\ref{eq:fehlerfertig}) ergeben sich die Wärmeleitungskonstanten:
+
+\begin{equation}
+\lambda_{\mathrm{Cu}} = 372.55 \pm 62.63 \,\frac{\mathrm{W}}{\mathrm{m\,K}}
+\end{equation}
+
+\begin{equation}
+\lambda_{\mathrm{Al}} = 188.50 \pm 27.84 \,\frac{\mathrm{W}}{\mathrm{m\,K}}
+\end{equation}
+
+Die Literaturwerte betragen  
+$\lambda_{\mathrm{Cu,\,Lit}} = 401\,\mathrm{W/(m\,K)}$ und  
+$\lambda_{\mathrm{Al,\,Lit}} = 237\,\mathrm{W/(m\,K)}$ \cite{3}.
+
+Der Wert für Kupfer stimmt – unter Berücksichtigung der Fehlergrenzen – mit dem Literaturwert überein. Für Aluminium zeigt sich jedoch selbst innerhalb der Unsicherheiten eine deutliche Abweichung. Mögliche Ursachen hierfür werden im Folgenden diskutiert.
