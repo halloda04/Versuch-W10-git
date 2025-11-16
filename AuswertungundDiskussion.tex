@@ -1,27 +1,66 @@
 \section{Auswertung}
 \subsection{Aufgabe 1, Zwickelabgleich}
 Um den Wasserwert des Dewar-Gefäß zu ermitteln wird ein Zwickelabgleich durchgeführt.
-Diagramm Zwickelabgleich
-Der Wasserwert \omega wird durch die Formel
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/AuswertungZwicklabgleich.jpeg}
+\caption{Eine graphische Auswertung des Zwickelabgleich}
+\label{Zwickelabgleich}
+\end{figure}
+Der Wasserwert \omega~wird durch die Formel
 \begin{equation}
     \omega = \frac{m_W \cdot \left(T_W-T_m\right)}{T_m-T_K}-m_K
+    \label{Wasserwert}
 \end{equation}
-berechnet.(Zitat Protokoll 1!!)Hierbei beschreibt $m_W$ das Gewicht 
-des warmen Wassers, $T_W$ die Temperatur des Warmenwassers, $T_m$ die 
-idialisierte Mischetemperatur des warmen und des kalten Wassers, 
+berechnet.\cite{Protokoll-W1} Hierbei beschreibt $m_W$ das Gewicht 
+des warmen Wassers, $T_W$ die Temperatur des warmen Wassers, $T_m$ die 
+idealisierte Mischtemperatur des warmen und des kalten Wassers, 
 $T_K$ die Temperatur des kalten Wassers und $m_K$ die Masse des kalten 
-Wassers. Die jeweils gemessen Temperaturen konnten auf eine Genauigkeit 
-von \Delta T \pm 0,05 °C bestimmt werden. Dadurch können die 
-weiterführenden Geraden der Temperatur als Konstante Gerade verwendet 
+Wassers. Die jeweils gemessenen Temperaturen konnten auf eine Genauigkeit 
+von $\Delta T \pm 0{,}05\,^\circ\mathrm{C}$ bestimmt werden. Dadurch können die 
+weiterführenden Geraden der Temperatur als konstante Geraden verwendet 
 werden. Das Gewicht des warmen Wassers konnte auf eine Genauigkeit von 
-\pm 0,05g bestimmt werden $\left( m_W = 200,3 \pm 0,05g \right)$. Bei 
-der Masse des kalten Wassers kam es zu einem Messfehler da beim 
-schütten vom Becherglas ins Dewar-Gefäß etwas Wasser daneben gegangen 
-ist, deswegen konnte hier nur eine Genauigkeit von \Delta 
-$m_K = \pm 5g$ erzielt werden$\left(m_K = 185 \pm5g\right)$. Für den 
-Fehler für $T_W$ und $T_K$ muss beachtet werden, dass der Zeitpunkt $t_0$ 
-per Hand in das Diagramm eingefügt wurde und somit nicht den ideal 
-Werten entspricht. Fehler der fitgeraden+ große formel!!
+$\pm 0{,}05\,\mathrm{g}$ bestimmt werden $\left( m_W = 200{,}3 \pm 0{,}05\,\mathrm{g} \right)$. Bei 
+der Masse des kalten Wassers kam es zu einem Messfehler, da beim 
+Schütten vom Becherglas in das Dewar-Gefäß etwas Wasser daneben gegangen 
+ist; deswegen konnte hier nur eine Genauigkeit von 
+$\Delta m_K = \pm 2\,\mathrm{g}$ erzielt werden $\left( m_K = 185 \pm 5\,\mathrm{g} \right)$. Für den 
+Fehler von $T_W$ und $T_K$ muss beachtet werden, dass der Zeitpunkt $t_0$ 
+per Hand in das Diagramm eingefügt wurde und somit nicht den idealen 
+Werten entspricht. Dadurch hat die Gerade $t_0$ eine geschätzte 
+Genauigkeit von $\pm 2$ Sekunden, was bei einem geschätzten Wert von 
+$t_0 = 35$ Sekunden zu $t_0 = 35 \pm 2$ Sekunden führt.
+
+\newpage
+Grundsätzlich gilt für den Fehler des Wasserwerts 
+\begin{equation}
+    \Delta \omega = \pm \left( \left|\frac{\partial{\omega}}{\partial{m_W}}\right|\cdot \Delta m_W +
+    \left|\frac{\partial{\omega}}{\partial{m_K}}\right|\cdot \Delta m_K +
+    \left|\frac{\partial{\omega}}{\partial{T_K}}\right|\cdot \Delta T_K +
+    \left|\frac{\partial{\omega}}{\partial{T_W}}\right|\cdot \Delta T_W +
+    \left|\frac{\partial{\omega}}{\partial{T_m}}\right|\cdot \Delta T_m +
+    \right).
+\end{equation}
+Differenzieren und vereinfachen ergibt schließlich:
+\begin{equation}
+    \Delta \omega = \pm \left( \Delta m_K + \frac{\Delta m_W \cdot \left(T_W - T_m\right)+ \Delta T_W \cdot m_W}{T_m - T_K}
++ m_W \cdot \frac{\Delta T_m \cdot \left(T_W - T_K\right) + \Delta T_K \cdot \left(T_W - T_m\right)}{\left( T_m - T_K\right)^2}
+    \right)
+    \label{Fehlerwasserwert}
+\end{equation}
+
+Daraus ergibt sich nun der Wasserwert des Dewar-Gefäßes aus Gleichung \ref{Wasserwert} und \ref{Fehlerwasserwert}
+\begin{figure}[H]
+    \centering
+    $\omega$ = 24,84 \pm 2,12 Gramm
+\end{figure}
+Mögliche Fehlerquellen sind leicht verschobene Messzeitpunkte, da die 
+Zeitabstände ziemlich gering sind und somit leicht Fehler unterlaufen 
+können. Ungenauigkeiten beim Legen der idealen Mischgeraden zum Zeitpunkt 
+$t_0$. Ein eindeutiger Fehler ist die verlorengegangene Flüssigkeit ganz 
+am Anfang des Versuches.
+
+
 
 \newpage
 \subsection{Aufgabe 2, Wärmeleistung}
@@ -71,7 +110,10 @@ Dabei ist $\Delta\!\frac{dT}{dt}$ gegeben durch die differenz der Steigung der G
 }{2} \right|.
 \end{equation}
 
-Die Menge and destilliertem Wasser war $m_w = 409,5 \pm 0,1g $. Für $c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{kgK}}}$ verwendet. Somit ergibt sich mit den Werten für die Steigungen aus \ref{fig:tempunten}
+Die Menge an destilliertem Wasser war $m_w = 409,5 \pm 0,1g $. Für 
+$c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{kgK}}}$ verwendet. 
+Somit ergibt sich mit den Werten für die Steigungen aus 
+\ref{fig:tempunten}
 und dem in Teil 1 bestimmtem Wasserwert eine Wärmeleistung von:
 \begin{equation}
 P_{Cu} = FEHLer
