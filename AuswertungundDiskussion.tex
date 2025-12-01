@@ -1,1 +1,248 @@
 \section{Auswertung}
+\subsection{Aufgabe 1, Zwickelabgleich}
+Um den Wasserwert des Dewar-Gefäß zu ermitteln wird ein Zwickelabgleich durchgeführt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/AuswertungZwicklabgleich.jpeg}
+\caption{Eine graphische Auswertung des Zwickelabgleich}
+\label{Zwickelabgleich}
+\end{figure}
+Der Wasserwert \omega~wird durch die Formel
+\begin{equation}
+    \omega = \frac{m_W \cdot \left(T_W-T_m\right)}{T_m-T_K}-m_K
+    \label{Wasserwert}
+\end{equation}
+berechnet.\cite{Protokoll-W1} Hierbei beschreibt $m_W$ das Gewicht 
+des warmen Wassers, $T_W$ die Temperatur des warmen Wassers, $T_m$ die 
+idealisierte Mischtemperatur des warmen und des kalten Wassers, 
+$T_K$ die Temperatur des kalten Wassers und $m_K$ die Masse des kalten 
+Wassers. Die jeweils gemessenen Temperaturen konnten auf eine Genauigkeit 
+von $\Delta T \pm 0{,}05\,^\circ\mathrm{C}$ bestimmt werden. Dadurch können die 
+weiterführenden Geraden der Temperatur als konstante Geraden verwendet 
+werden. Das Gewicht des warmen Wassers konnte auf eine Genauigkeit von 
+$\pm 0{,}05\,\mathrm{g}$ bestimmt werden $\left( m_W = 200{,}3 \pm 0{,}05\,\mathrm{g} \right)$. Bei 
+der Masse des kalten Wassers kam es zu einem Messfehler, da beim 
+Schütten vom Becherglas in das Dewar-Gefäß etwas Wasser daneben gegangen 
+ist; deswegen konnte hier nur eine Genauigkeit von 
+$\Delta m_K = \pm 2\,\mathrm{g}$ erzielt werden $\left( m_K = 185 \pm 5\,\mathrm{g} \right)$. Für den 
+Fehler von $T_W$ und $T_K$ muss beachtet werden, dass der Zeitpunkt $t_0$ 
+per Hand in das Diagramm eingefügt wurde und somit nicht den idealen 
+Werten entspricht. Dadurch hat die Gerade $t_0$ eine geschätzte 
+Genauigkeit von $\pm 2$ Sekunden, was bei einem geschätzten Wert von 
+$t_0 = 35$ Sekunden zu $t_0 = 35 \pm 2$ Sekunden führt.
+
+\newpage
+Grundsätzlich gilt für den Fehler des Wasserwerts 
+\begin{equation}
+    \Delta \omega = \pm \left( \left|\frac{\partial{\omega}}{\partial{m_W}}\right|\cdot \Delta m_W +
+    \left|\frac{\partial{\omega}}{\partial{m_K}}\right|\cdot \Delta m_K +
+    \left|\frac{\partial{\omega}}{\partial{T_K}}\right|\cdot \Delta T_K +
+    \left|\frac{\partial{\omega}}{\partial{T_W}}\right|\cdot \Delta T_W +
+    \left|\frac{\partial{\omega}}{\partial{T_m}}\right|\cdot \Delta T_m +
+    \right).
+\end{equation}
+Differenzieren und vereinfachen ergibt schließlich:
+\begin{equation}
+    \Delta \omega = \pm \left( \Delta m_K + \frac{\Delta m_W \cdot \left(T_W - T_m\right)+ \Delta T_W \cdot m_W}{T_m - T_K}
++ m_W \cdot \frac{\Delta T_m \cdot \left(T_W - T_K\right) + \Delta T_K \cdot \left(T_W - T_m\right)}{\left( T_m - T_K\right)^2}
+    \right)
+    \label{Fehlerwasserwert}
+\end{equation}
+
+Daraus ergibt sich nun der Wasserwert des Dewar-Gefäßes aus Gleichung \ref{Wasserwert} und \ref{Fehlerwasserwert}
+\begin{figure}[H]
+    \centering
+    $\omega$ = 24,84 \pm 2,12 Gramm
+\end{figure}
+Mögliche Fehlerquellen sind leicht verschobene Messzeitpunkte, da die 
+Zeitabstände ziemlich gering sind und somit leicht Fehler unterlaufen 
+können. Ungenauigkeiten beim Legen der idealen Mischgeraden zum Zeitpunkt 
+$t_0$. Ein eindeutiger Fehler ist die verlorengegangene Flüssigkeit ganz 
+am Anfang des Versuches.
+
+
+
+\newpage
+\subsection{Aufgabe 2, Wärmeleistung}
+Trägt man die Temperatur $T_u$ gegen die Zeit $t$ auf so erhält man folgende Grafik:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/tempuntent.png}
+    \caption{Die Temperatur $T_u$ aufgetragen gegen die Zeit. Mit Grenz- und Ausgleichsgeraden. Die ersten 3 Messpunkte wurden in die Steigung der Geraden miteinbezogen da die Temperatur $T$ hier konstant ist}
+    \label{fig:tempunten}
+\end{figure}
+
+
+Für die Wärme $Q$, welche vom Dewar-Gefäß aufgenommen wird gilt:
+
+\begin{equation}
+Q = c_w \cdot (m_w + w)\cdot \Delta T
+\end{equation}
+
+Differenziert nach der Zeit, ergibt sich für die Wärmeleistung $P$:
+\begin{equation}
+P = c_w \cdot (m_w + w)\cdot \frac{\text{d}T}{\text{d}t} 
+\end{equation}
+
+Für den Fehler gilt:
+
+\begin{equation}
+\Delta P = \pm \left(
+\left|\frac{\partial P}{\partial m_w}\right| \,\Delta m_w
++ \left|\frac{\partial P}{\partial w}\right| \,\Delta w
++ \left|\frac{\partial P}{\partial \frac{dT}{dt}}\right| \,\Delta\!\frac{dT}{dt}
+\right)
+= \pm P \left(
+\frac{\Delta m_w + \Delta w}{m_w + w}
++ \frac{\Delta\!\frac{dT}{dt}}{\frac{dT}{dt}}
+\right)
+\end{equation}
+
+\newpage
+Dabei ist $\Delta\!\frac{dT}{dt}$ gegeben durch die Differenz der Steigung der Grenzgeraden.
+
+\begin{equation}
+\Delta\!\frac{dT}{dt}
+= \pm \left| \frac{
+\left(\frac{dT}{dt}\right)_{\max}
+-
+\left(\frac{dT}{dt}\right)_{\min}
+}{2} \right|.
+\end{equation}
+
+Die Menge an destilliertem Wasser war $m_w = 409,5 \pm 0,1g $. Für 
+$c_W$ wurde eine Wert von $4,18\frac{\text{J}}{{\text{gK}}}$ verwendet. 
+Somit ergibt sich mit den Werten für die Steigungen aus 
+\ref{fig:tempunten}
+und dem in Teil 1 bestimmtem Wasserwert eine Wärmeleistung von:
+\begin{equation}
+P_{Cu} = 14,52 \pm 1,85 \text{W}
+\end{equation}
+
+Für den Aluminuimstab sieht die Grafik wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/tempuntentalu.png}
+    \caption{Die Temperatur $T_u$ aufgetragen gegen die Zeit. Mit Grenz- und Ausgleichsgeraden. Die ersten 4 Messpunkte wurden in die Steigung der Geraden miteinbezogen da die Temperatur $T$ hier konstant ist}
+    \label{fig:tempuntenalu}
+\end{figure}
+
+Mit identischem Verfahren und identischem Wasserwert und einem Wassermasse von $m_w = 432,4 \pm 0,1$ erhält man für die Leistung des Aluminuimstabs:
+
+\begin{equation}
+P_{al} = 16,91 \pm 1,23  \text{W}
+\end{equation}
+\newpage
+
+\subsection{Aufgabe 3, Stationärer Zeitpunkt}
+
+Im Folgenden sind die Temperaturen des Kupferstabs oben sowie unten gegen die Zeit Aufgetragen. Zudem ist die
+Temperaturdifferenz $\Delta T$ aufgetragen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/temp diff.png}
+    \caption{Die Temperaturen am oberen sowie am unteren Stabende und deren Differenz aufgtragen gegen die Zeit.}
+    \label{fig:tempuntensdiff}
+\end{figure}
+
+
+Der Stationärefall tritt etwa bei $T = 24min$ ein. Das ergibt eine stationäre Temperaturdiffernz von:
+\begin{equation}
+\Delta T_{Cu} = 28.5 \pm 0,18 °C
+\end{equation}
+
+Hierzu wurde der Mitelwert aller Messpunkte sowie die Standartabweichung nach $T = 24$ min verwendet.
+Im Folgenden wurde dann die stationere Temperaturdifferenz für den Alustab mit gleicher Methodik bestimmt.
+Der Stationäre Fall tritt bei dieser Messreihe bei etwa $T = 28$ min ein.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Bilder/temp diff alu.png}
+    \caption{Die Temperaturen am oberen sowie am unteren Stabende und deren Differenz aufgtragen gegen die Zeit.}
+    \label{fig:tempuntensdiffalu}
+\end{figure}
+
+Es ergab sich eine Temperaturdifferenz von:
+
+\begin{equation}
+\Delta T_{Al} = 63.18 \pm 0.23 °C
+\end{equation}
+
+\newpage
+\subsection{Teil 4, Wärmeleitungskonstanten}
+
+Um die Wärmeleitungskonstanten von Kupfer und Aluminium zu bestimmen, kann die unten stehende Gleichung benutzt werden. Zudem entspricht die Wärmeleistung $P$ der in Aufgabe 2 ermittelten übertragenen Leistung. Weiterhin bezeichnet $\Delta x$ den Abstand zwischen den beiden Temperaturfühlern, $\Delta T$ die stationäre Temperaturdifferenz aus Aufgabe 3 und $A$ die jeweilige Querschnittsfläche der beiden Metallstäbe.
+
+\begin{equation}
+\lambda = \frac{P \, \Delta x}{A \, \Delta T}
+\end{equation}
+
+
+Sowohl der Kupfer- als auch der Aluminiumstab besitzen denselben Durchmesser von  
+$d = 25 \pm 1\,\mathrm{mm}$. Somit ergibt sich für die Querschnittsfläche
+
+\begin{equation}
+A = \frac{\pi}{4} \, d^2
+\label{eq:A}
+\end{equation}
+
+\newpage
+Der Fehler
+
+\begin{equation}
+\Delta A = \pm \left| \frac{\partial A}{\partial d} \right| \Delta d
+= \pm \frac{\pi}{2} \, d \, \Delta d .
+\label{eq:dA}
+\end{equation}
+
+Der Abstand beträgt für beide Stäbe $\Delta x = l = 30.00 \pm 0.25\,\mathrm{cm}$.  
+Damit lässt sich die Wärmeleitungskonstante $\lambda$ bestimmen. Für den Fehler ergibt sich
+
+\begin{equation}
+\Delta\lambda 
+= \pm \left(
+\left| \frac{\partial \lambda}{\partial P} \right| \Delta P
++ \left| \frac{\partial \lambda}{\partial l} \right| \Delta l
++ \left| \frac{\partial \lambda}{\partial \Delta T_{\mathrm{stat}}} \right|
+\Delta(\Delta T_{\mathrm{stat}})
++ \left| \frac{\partial \lambda}{\partial A} \right| \Delta A
+\right).
+\label{eq:fehlervoll}
+\end{equation}
+
+Nach Differenzieren und Umformung erhält man schließlich
+
+\begin{equation}
+\Delta \lambda
+= \pm \lambda \left(
+\frac{\Delta P}{P}
++ \frac{\Delta l}{l}
++ 2 \frac{\Delta d}{d}
++ \frac{\Delta(\Delta T_{\mathrm{stat}})}{\Delta T_{\mathrm{stat}}}
+\right).
+\label{eq:fehlerfertig}
+\end{equation}
+
+Unter Verwendung der Gleichungen (13) und (\ref{eq:fehlerfertig}) ergeben sich die Wärmeleitungskonstanten:
+
+\begin{equation}
+\lambda_{\mathrm{Cu}} = 412.74 \pm 101,97 \,\frac{\mathrm{W}}{\mathrm{m\,K}}
+\end{equation}
+
+\begin{equation}
+\lambda_{\mathrm{Al}} = 163,00 \pm 30.92 \,\frac{\mathrm{W}}{\mathrm{m\,K}}
+\end{equation}
+
+Die Literaturwerte betragen  
+$\lambda_{\mathrm{Cu,\,Lit}} = 401\,\mathrm{W/(m\,K)}$ und  
+$\lambda_{\mathrm{Al,\,Lit}} = 237\,\mathrm{W/(m\,K)}$ \cite{Wärmeleitfähigkeiten}.
+
+<<<<<<< HEAD
+Der Wert für Kupfer stimmt – unter Berücksichtigung der Fehlergrenzen – mit dem Literaturwert überein. Für Aluminium zeigt sich jedoch selbst innerhalb der Unsicherheiten eine deutliche Abweichung. Die Werte für das Aluminuim stammen von der anderen Gruppe weswegen eine genaue Fehleranalyse schwerfällt. Einer der Hauptgründe für die hohe Abweichung vom Literaturwert wird aber wohl der falsche Wasserwert sein,
+=======
+Der Wert für Kupfer stimmt, unter Berücksichtigung der Fehlergrenzen, mit dem Literaturwert überein. Für Aluminium zeigt sich jedoch selbst innerhalb der Unsicherheiten eine deutliche Abweichung. Die Werte für das Aluminuim stammen von der anderen Gruppe weswegen eine Genaue Fehleranalyse schwerfällt. Einer der Hauptgründe für die hohe Abweichung vom Literaturwert wird aber wohl der Falsche Wasserwert sein,
+>>>>>>> a80354ba1503776dddced0e60de6727fe21cf390
+da dieser nicht von der anderen Gruppe übernommen wurde.
