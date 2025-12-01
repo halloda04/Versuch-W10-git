@@ -1,7 +1,7 @@
 \documentclass[
     toc=bibliographynumbered,
-    DIV=13,
-    12pt,
+    a4paper,
+    11pt,
     twoside=false,]{article}
 
 
@@ -24,6 +24,7 @@
 \usepackage[backend=biber, style=phys, biblabel=brackets, block=ragged, language=autobib, autolang=other]{biblatex}
 \addbibresource{literatur.bib}
 %\usepackage{hyperref}
+\usepackage[labelfont=bf,textfont=normalfont]{caption}
 
 
 \fancyhf{}
@@ -43,19 +44,19 @@
 \RaggedRight
 
 
-\newcommand{\Versuchnummer}{W10}                           %CHange iiit
-\newcommand{\Versuch}{Wärmeleitung}          %Change iiit
-\newcommand{\Abgabedatum}{16.11.2025}                           %Change iiit
-\newcommand{\Versuchsdatum}{05.11.2025}              %Change iiit
+\newcommand{\Versuchnummer}{W1}                           %CHange iiit
+\newcommand{\Versuch}{Elektrisches Wärmeequivalent}          %Change iiit
+\newcommand{\Abgabedatum}{14.12.2025}                           %Change iiit
+\newcommand{\Versuchsdatum}{03.12.2025}              %Change iiit
 
 
 
 
 
 
-\newcommand{\sectionstyle}[1]{\color{teal!40!gray}\bfseries\Huge #1}         
-\newcommand{\subsectionstyle}[1]{\color{teal!40!gray}\bfseries\LARGE #1}
-\newcommand{\subsubsectionstyle}[1]{\color{teal!40!gray}\bfseries\Large #1}
+\newcommand{\sectionstyle}[1]{\color{teal!40!gray}\bfseries\LARGE #1}         
+\newcommand{\subsectionstyle}[1]{\color{teal!40!gray}\bfseries\Large #1}
+\newcommand{\subsubsectionstyle}[1]{\color{teal!40!gray}\bfseries\large #1}
 \titleformat{\section}{\sectionstyle}{\thesection}{1em}{}
 \titleformat{\subsection}{\subsectionstyle}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\subsubsectionstyle}{\thesubsubsection}{1em}{}
@@ -86,27 +87,27 @@
    \vspace{1cm}
 
 
-     \begin{minipage}{0.7\textwidth}
+
         {\large \setstretch{2}{Gruppe: \hspace{2,8cm} G 04}}\\ \vspace{0,3cm}   
-    {\large \setstretch{2}{Versuchsdatum: \hspace{1,55cm}\Versuchsdatum}}\\\vspace{0,3cm}
-     {\large \setstretch{2}{Abgabedatum: \hspace{1,8cm}\Abgabedatum}}\\\vspace{1,5cm}
+    {\large \setstretch{2}{Versuchsdatum: \hspace{1,5cm}\Versuchsdatum}}\\\vspace{0,3cm}
+     {\large \setstretch{2}{Abgabedatum: \hspace{1,65cm}\Abgabedatum}}\\\vspace{1,5cm}
     {\large \setstretch{2}{Gemeinsames Versuchsprotokoll}}\\
      {\large \setstretch{2}{Ferdinand Frey\\Tom Glaser}}
 
-  \end{minipage}
-     \begin{minipage}{0.5\textwidth}
-            \includegraphics[width =\linewidth]{Bilder/Logo.jpg}
-    \end{minipage}\hfill
+
+ %    \begin{minipage}{0.5\textwidth}
+  %          \includegraphics[width =\linewidth]{Bilder/Logo.jpg}
+   % \end{minipage}\hfill
      
 
 
 
 
 \vspace{2cm}
-\begin{center}
-\includegraphics[width=0.8\textwidth, height = 4cm, scale=3.0]{Bilder/Titelbild.png}   %Bild ändern
-\end{center}      
-    \vfill
+     \begin{minipage}{0.5\textwidth}
+        \centering
+            \includegraphics[width =\linewidth]{Bilder/Logo.jpg}
+    \end{minipage}\hfill
 \end{titlepage}
 \setcounter{page}{2}
 
