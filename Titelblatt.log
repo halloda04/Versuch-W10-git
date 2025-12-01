@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  1 DEC 2025 12:36
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.29)  1 DEC 2025 12:45
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Users/tomgl/Documents/Universität Augsburg/AP/Versuch-W-1/Versuch W-1/Titelblatt.tex"
@@ -911,16 +911,16 @@ Overfull \hbox (56.25862pt too wide) in paragraph at lines 80--80
 \TU/lmr/bx/n/50 An-fän-ger-prak-ti-kum[]  
  []
 
-<Bilder/Logo.jpg, id=1, 405.4347pt x 70.8246pt>
-File: Bilder/Logo.jpg Graphic file (type jpg)
-<use Bilder/Logo.jpg>
-Package luatex.def Info: Bilder/Logo.jpg  used on input line 109.
-(luatex.def)             Requested size: 213.39568pt x 37.27855pt.
+<Bilder/Titelbild.png, id=1, 589.20125pt x 247.92625pt>
+File: Bilder/Titelbild.png Graphic file (type png)
+<use Bilder/Titelbild.png>
+Package luatex.def Info: Bilder/Titelbild.png  used on input line 108.
+(luatex.def)             Requested size: 1767.5994pt x 743.77693pt.
 
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./Bilder/Logo.jpg>] (./Titelblatt.toc)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./Bilder/Titelbild.png>] (./Titelblatt.toc)
 \tf@toc=\write4
 
 \openout4 = Titelblatt.toc
@@ -942,54 +942,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3] (./Theorie.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4] (./Versuchsbeschreibung.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5] (./AuswertungundDiskussion.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6] (./Zusammenfassung.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7] (./Laborbuch(Anhang).tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[8] (./Literaturverzeichnis.tex
-
-LaTeX Warning: Empty bibliography on input line 2.
+[3] (./Theorie.tex
+Overfull \hbox (2.21869pt too wide) in paragraph at lines 24--24
+\TU/lmr/m/n/10.95 In die-sem Ver-such wird die Wär-me-lei-tung nä-her be-trach-tet; sie wird ma-the-ma-tisch durch 
+ []
 
 )
 
@@ -1000,30 +956,320 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9] (./Titelblatt.aux)
+[4] (./Versuchsbeschreibung.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6] (./AuswertungundDiskussion.tex
+<Bilder/AuswertungZwicklabgleich.jpeg, id=31, 1606.0pt x 797.98125pt>
+File: Bilder/AuswertungZwicklabgleich.jpeg Graphic file (type jpg)
+<use Bilder/AuswertungZwicklabgleich.jpeg>
+Package luatex.def Info: Bilder/AuswertungZwicklabgleich.jpeg  used on input line 6.
+(luatex.def)             Requested size: 426.79135pt x 212.06065pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7<./Bilder/AuswertungZwicklabgleich.jpeg>]
+Overfull \hbox (27.91795pt too wide) detected at line 43
+[]\OT1/cmr/m/n/10.95 \OML/cmm/m/it/10.95 ! \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95  [] \OML/cmm/m/it/10.95 :
+ []
+
+
+Overfull \hbox (52.50838pt too wide) detected at line 50
+[]\OT1/cmr/m/n/10.95 \OML/cmm/m/it/10.95 ! \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95  []
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+<Bilder/tempuntent.png, id=42, 722.7pt x 578.16pt>
+File: Bilder/tempuntent.png Graphic file (type png)
+<use Bilder/tempuntent.png>
+Package luatex.def Info: Bilder/tempuntent.png  used on input line 71.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\TU/lmr/bx/it/10.95 Ab-bil-dung 2: |\TU/lmr/m/n/10.95 Die Tem-pe-ra-tur $\OML/cmm/m/it/10.95 T[]$ \TU/lmr/m/n/10.95 auf-ge-tra-gen ge-gen die Zeit. Mit Grenz- und Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/lmr/m/n/10.95 gleichs-ge-ra-den. Die ers-ten 3 Mess-punk-te wur-den in die Stei-gung der Ge-ra-den mit-ein-be-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9<./Bilder/tempuntent.png>]
+<Bilder/tempuntentalu.png, id=47, 722.7pt x 578.16pt>
+File: Bilder/tempuntentalu.png Graphic file (type png)
+<use Bilder/tempuntentalu.png>
+Package luatex.def Info: Bilder/tempuntentalu.png  used on input line 127.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]\TU/lmr/bx/it/10.95 Ab-bil-dung 3: |\TU/lmr/m/n/10.95 Die Tem-pe-ra-tur $\OML/cmm/m/it/10.95 T[]$ \TU/lmr/m/n/10.95 auf-ge-tra-gen ge-gen die Zeit. Mit Grenz- und Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\TU/lmr/m/n/10.95 gleichs-ge-ra-den. Die ers-ten 4 Mess-punk-te wur-den in die Stei-gung der Ge-ra-den mit-ein-be-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10<./Bilder/tempuntentalu.png>]
+<Bilder/temp diff.png, id=53, 1156.32pt x 574.5465pt>
+File: Bilder/temp diff.png Graphic file (type png)
+<use Bilder/temp diff.png>
+Package luatex.def Info: Bilder/temp diff.png  used on input line 146.
+(luatex.def)             Requested size: 426.79135pt x 212.06163pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]\TU/lmr/bx/it/10.95 Ab-bil-dung 4: |\TU/lmr/m/n/10.95 Die Tem-pe-ra-tu-ren am obe-ren so-wie am un-te-ren Sta-ben-de und de-ren Dif-
+ []
+
+<Bilder/temp diff alu.png, id=54, 722.7pt x 578.16pt>
+File: Bilder/temp diff alu.png Graphic file (type png)
+<use Bilder/temp diff alu.png>
+Package luatex.def Info: Bilder/temp diff alu.png  used on input line 163.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]\TU/lmr/bx/it/10.95 Ab-bil-dung 5: |\TU/lmr/m/n/10.95 Die Tem-pe-ra-tu-ren am obe-ren so-wie am un-te-ren Sta-ben-de und de-ren Dif-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11<./Bilder/temp diff.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12<./Bilder/temp diff alu.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14] (./Zusammenfassung.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15] (./Laborbuch(Anhang).tex
+File: Bilder/temp diff alu.png Graphic file (type png)
+<use Bilder/temp diff alu.png>
+Package luatex.def Info: Bilder/temp diff alu.png  used on input line 5.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+File: Bilder/temp diff.png Graphic file (type png)
+<use Bilder/temp diff.png>
+Package luatex.def Info: Bilder/temp diff.png  used on input line 10.
+(luatex.def)             Requested size: 426.79135pt x 212.06163pt.
+File: Bilder/tempuntent.png Graphic file (type png)
+<use Bilder/tempuntent.png>
+Package luatex.def Info: Bilder/tempuntent.png  used on input line 14.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+File: Bilder/tempuntentalu.png Graphic file (type png)
+<use Bilder/tempuntentalu.png>
+Package luatex.def Info: Bilder/tempuntentalu.png  used on input line 18.
+(luatex.def)             Requested size: 426.79135pt x 341.43785pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+<Bilder/Titelbild-W10.png, id=76, 245.91875pt x 202.25563pt>
+File: Bilder/Titelbild-W10.png Graphic file (type png)
+<use Bilder/Titelbild-W10.png>
+Package luatex.def Info: Bilder/Titelbild-W10.png  used on input line 22.
+(luatex.def)             Requested size: 426.79135pt x 351.03003pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
+<Bilder/Unbenannt1.jpg, id=83, 1357.07pt x 1938.24126pt>
+File: Bilder/Unbenannt1.jpg Graphic file (type jpg)
+<use Bilder/Unbenannt1.jpg>
+Package luatex.def Info: Bilder/Unbenannt1.jpg  used on input line 27.
+(luatex.def)             Requested size: 426.79135pt x 609.54369pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19<./Bilder/Titelbild-W10.png>]
+<Bilder/Unbenannt2.jpg, id=88, 1541.76pt x 2047.65pt>
+File: Bilder/Unbenannt2.jpg Graphic file (type jpg)
+<use Bilder/Unbenannt2.jpg>
+Package luatex.def Info: Bilder/Unbenannt2.jpg  used on input line 32.
+(luatex.def)             Requested size: 426.79135pt x 566.80798pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20<./Bilder/Unbenannt1.jpg>]
+<Bilder/Unbenannt3.jpg, id=92, 1541.76pt x 2047.65pt>
+File: Bilder/Unbenannt3.jpg Graphic file (type jpg)
+<use Bilder/Unbenannt3.jpg>
+Package luatex.def Info: Bilder/Unbenannt3.jpg  used on input line 38.
+(luatex.def)             Requested size: 426.79135pt x 566.80798pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21<./Bilder/Unbenannt2.jpg>])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22<./Bilder/Unbenannt3.jpg>] (./Literaturverzeichnis.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23] (./Titelblatt.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Titelblatt
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Titelblatt.run.xml'.
 
 \openout1 = Titelblatt.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 22236 strings out of 470117
+ 22589 strings out of 470117
  125081,1648299 words of node,token memory allocated
- 694 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 10 attribute, 86 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 2:280,3:82,4:16,5:78,6:28,7:740,8:2,9:148,10:4,11:84
- 50242 multiletter control sequences out of 65536+600000
- 36 fonts using 2605255 bytes
+ 944 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 90 attribute, 88 glue_spec, 47 attribute_list, 1 write nodes
+   avail lists: 2:405,3:146,4:45,5:370,6:44,7:3945,8:86,9:546,10:23,11:446
+ 50556 multiletter control sequences out of 65536+600000
+ 39 fonts using 3000319 bytes
  73i,11n,76p,774b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on Titelblatt.pdf (9 pages, 86847 bytes).
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Titelblatt.pdf (23 pages, 1322824 bytes).
 
-PDF statistics: 61 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
